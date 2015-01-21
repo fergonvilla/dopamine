@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load staticfiles %}
+
+{% block meta_title %}{% trans "Home" %}{% endblock %}
+{% block title %}{% trans "Home" %}{% endblock %}
+
+
+{% block main %}
+  <header class="intro-header" style="background-image: url('{% static "img/home-bg.jpg" %}')">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <div class="site-heading">
+                      <h1>{{ settings.SITE_TITLE }}</h1>
+                      <hr class="small">
+                      <span class="subheading">A Clean Blog Theme by Start Bootstrap</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </header>
+{% endblock %}

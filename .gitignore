@@ -1,0 +1,28 @@
+*.pyc
+*.pyo
+*.db
+.DS_Store
+.coverage
+local_settings.py
+/static
+
+
+### Sublime Text
+*.sublime*
+
+##virtualenv##
+bin/
+lib/
+include/
+local/
+logs/
+man/
+share/
+
+### Databases and documentation
+*.sqlite3
+docs/build/
+docs/source/_*
+
+tmp/
+node_modules
