@@ -22,14 +22,14 @@ TIME_ZONE = 'Europe/Madrid'
 INTERNAL_IPS = ('127.0.0.1',)
 
 
-EMAIL_SENDER = 'Info<info@fake-email.com>'
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# EMAIL_SENDER = 'Info<info@fake-email.com>'
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-EMAIL_PORT = environ.get('EMAIL_PORT', 587)
-EMAIL_HOST = environ.get('EMAIL_HOST', 'smtp.gmail.com')
-EMAIL_HOST_USER = environ.get('EMAIL_HOST_USER', 'info@fake-email.com')
-EMAIL_HOST_PASSWORD = get_env_setting('EMAIL_HOST_PASSWORD')
-EMAIL_USE_TLS = True
+# EMAIL_PORT = environ.get('EMAIL_PORT', 587)
+# EMAIL_HOST = environ.get('EMAIL_HOST', 'smtp.gmail.com')
+# EMAIL_HOST_USER = environ.get('EMAIL_HOST_USER', 'info@fake-email.com')
+# EMAIL_HOST_PASSWORD = get_env_setting('EMAIL_HOST_PASSWORD')
+# EMAIL_USE_TLS = True
 
 
 # Make these unique, and don't share it with anybody.

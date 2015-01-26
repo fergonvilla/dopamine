@@ -4,8 +4,9 @@
 .DS_Store
 .coverage
 local_settings.py
-/static
-
+/static/
+!/static/css/*
+!/static/img/*
 
 ### Sublime Text
 *.sublime*
@@ -26,3 +27,4 @@ docs/source/_*
 
 tmp/
 node_modules
+env/

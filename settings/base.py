@@ -73,6 +73,7 @@ MEDIA_URL = STATIC_URL + "media/"
 MEDIA_ROOT = os.path.join(PROJECT_ROOT, *MEDIA_URL.strip("/").split("/"))
 
 ROOT_URLCONF = "urls"
+USE_SOUTH = True
 
 
 TEMPLATE_DIRS = (os.path.join(PROJECT_ROOT, "templates"),)
@@ -153,7 +154,6 @@ OPTIONAL_APPS = (
     PACKAGE_NAME_GRAPPELLI,
 )
 
-USE_SOUTH = True
 
 ######################
 # MEZZANINE SETTINGS #

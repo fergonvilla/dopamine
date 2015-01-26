@@ -57,7 +57,7 @@
 
 <section class="container-fluid">
 <!-- Navigation -->
-  <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-custom navbar-fixed-top nav-bar-main">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -76,9 +76,9 @@
     <!-- /.container -->
   </nav>
 
+  {% nevercache %}
+    {% if messages %}
   <section class="container-fluid">
-    {% nevercache %}
-      {% if messages %}
         <div class="messages">
         {% for message in messages %}
         <div class="alert alert-dismissable alert-{{ message.tags }}" data-alert="alert">
@@ -87,12 +87,14 @@
         </div>
         {% endfor %}
         </div>
-      {% endif %}
-    {% endnevercache %}
   </section>
+    {% endif %}
+  {% endnevercache %}
 
   <main class="container-fluid">
-      {% block main %}{% endblock %}
+      {% block main %}
+
+      {% endblock %}
   </main>
 
   <footer>
