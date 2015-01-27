@@ -1,0 +1,60 @@
+
+
+.nav-bar-main {
+    background: black;
+    padding: 0px 30px;
+    position: relative;
+}
+
+.carousel {
+    width: 1170px;
+    height: 565px;
+}
+
+.carousel-caption {
+    padding-bottom: 240px;
+}
+
+.main-slider  {
+    width: 1170px;
+    height: 565px;
+}
+
+.carousel-caption-subtitle {
+    text-align: center;
+    color: white;
+    display: block;
+}
+
+.intro-header {
+    width: 1170px;
+    height: 565px;
+}
+
+.container {
+    display: block;
+    position: relative;
+}
+
+.col-md-8 {
+    height: 630px;
+}
+
+.col-md-6 {
+    height: 265px;
+}
+
+.col-md-4 {
+    height: 630px;
+}
+
+.image-8-12 {
+    width: 100%;
+    height: 350px;
+    margin-top: 15px;
+}
+
+.image-4-12 {
+    width: 100%;
+    height: 630px;
+}
