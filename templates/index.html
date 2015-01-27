@@ -11,20 +11,26 @@
 
 {% block main %}
   <header class="intro-header container">
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="height:565px">
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="{% static "img/carousel.jpg" %}" class='main-slider'>
+          <img src="{% static "img/carousel.jpg" %}" class='main-slider' style="height:565px">
           <div class="carousel-caption">
-              Snoop dog yeah bitch!
+            <span class="carousel-caption-title">
+              <h1>Keep it real</h1>
+            </span>
+              <h2>SNOOP DOGG, YEAH BITCH!</h2>
           </div>
         </div>
         <div class="item">
-          <img src="{% static "img/carousel.jpg" %}" class='main-slider'>
+          <img src="{% static "img/carousel.jpg" %}" class='main-slider' style="height:565px">
           <div class="carousel-caption">
-            Entrevista 50cents
+            <span class="carousel-caption-title">
+              <h1>Fuck with a nigga like me</h1>
+            </span>
+            <h2>Entrevista 50cents</h2>
           </div>
         </div>
       </div>
@@ -41,6 +47,33 @@
     </div>
 
   </header>
+  <body>
+    <div class="container" style="height:630px">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-6">
+              <article>
+                <img src="http://www.abcdrduson.com/wp-content/uploads/2014/12/underground-upload-2014-500x375.jpg" style="width:100%;height:265px">
+              </article>
+            </div>
+            <div class="col-md-6">
+              <article>
+                <img src="http://www.abcdrduson.com/wp-content/uploads/2015/01/tefa-500x375.jpg" style="width:100%;height:265px">
+              </article>
+            </div>
+          </div>
+          <div class="art-8-12">
+            <img src="http://www.abcdrduson.com/wp-content/uploads/2015/01/lino-1024x640.jpg" class="image-8-12">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="http://the-re-up.com/wp-content/uploads/2012/06/ASAP+Rocky.png" class="image-4-12">
+        </div>
+      </div>
+    </div>
+
+  </body>
 
 
 
