@@ -3,20 +3,21 @@
 {% load staticfiles %}
 
 {% block extra_head %}
-<link rel="stylesheet" type="text/css" href="">
 {% endblock %}
+
+
 {% block meta_title %}{% trans "Home" %}{% endblock %}
 {% block title %}{% trans "Home" %}{% endblock %}
 
 
 {% block main %}
   <header class="intro-header container">
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="height:565px">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="{% static "img/carousel.jpg" %}" class='main-slider' style="height:565px">
+          <img src="{% static "img/carousel.jpg" %}" class='main-slider' style="width:100%;height:565px">
           <div class="carousel-caption">
             <span class="carousel-caption-title">
               <h1>Keep it real</h1>
@@ -25,7 +26,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="{% static "img/carousel.jpg" %}" class='main-slider' style="height:565px">
+          <img src="{% static "img/carousel.jpg" %}" class='main-slider' style="width:100%;height:565px">
           <div class="carousel-caption">
             <span class="carousel-caption-title">
               <h1>Fuck with a nigga like me</h1>
@@ -45,35 +46,99 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-
   </header>
-  <body>
-    <div class="container" style="height:630px">
-      <div class="row">
-        <div class="col-md-8">
-          <div class="row">
-            <div class="col-md-6">
-              <article>
-                <img src="http://www.abcdrduson.com/wp-content/uploads/2014/12/underground-upload-2014-500x375.jpg" style="width:100%;height:265px">
-              </article>
-            </div>
-            <div class="col-md-6">
-              <article>
-                <img src="http://www.abcdrduson.com/wp-content/uploads/2015/01/tefa-500x375.jpg" style="width:100%;height:265px">
-              </article>
-            </div>
-          </div>
-          <div class="art-8-12">
-            <img src="http://www.abcdrduson.com/wp-content/uploads/2015/01/lino-1024x640.jpg" class="image-8-12">
-          </div>
-        </div>
-        <div class="col-md-4">
-          <img src="http://the-re-up.com/wp-content/uploads/2012/06/ASAP+Rocky.png" class="image-4-12">
-        </div>
-      </div>
-    </div>
 
-  </body>
+
+
+
+
+<style>
+
+
+
+</style>
+
+
+
+    <section class="container">
+      <div class="row">
+        <!-- Articles -->
+        <div class="  col-md-8 ">
+          <!-- Minibox -->
+          <article class="  col-md-6  article-box half background-cover" style="background-image: url('http://www.abcdrduson.com/wp-content/uploads/2014/12/underground-upload-2014-500x375.jpg')">
+              <header>
+                <h1>Rap en lavapies</h1>
+                <h2>un barrio que tiene rimas para ti</h2>
+              </header>
+          </article>
+
+          <!-- Minibox -->
+          <article class="  col-md-6  article-box half background-cover" style="background-image: url('http://www.abcdrduson.com/wp-content/uploads/2014/12/underground-upload-2014-500x375.jpg')">
+              <header>
+                <h1>Rap en lavapies</h1>
+                <h2>un barrio que tiene rimas para ti</h2>
+              </header>
+          </article>
+
+
+          <article class="  col-md-12  article-box full background-cover" style="background-image: url('http://www.abcdrduson.com/wp-content/uploads/2015/01/lino-1024x640.jpg')">
+            <header>
+              <h1>Oh yeah </h1>
+              <h2>all I have to do is use emmet with sublime text</h2>
+            </header>
+          </article>
+        </div>
+        <!-- /Articles -->
+
+        <!-- Sidebar -->
+        <div class="  col-md-4" style="height:635px">
+                  <!-- Minibox -->
+          <article class=" col-sm-12 col-md-12  article-box side background-cover" style="height:50%;background-image: url('http://www.abcdrduson.com/wp-content/uploads/2015/01/Kyma.1-1024x768.jpg');height:100%;">
+              <header>
+                <h1>Side bar</h1>
+                <h2>un barrio que tiene rimas para ti</h2>
+              </header>
+          </article>
+        </div>
+        <!-- /Sidebar -->
+      </div>
+    </section>
+
+
+    <section class= 'container'>
+      <div class= 'row'>
+        <h1 style="margin:30px 0;text-align:center">DESTACADOS</h1>
+          <article class="  col-md-4  article-box third background-cover" style="background-image: url('http://www.abcdrduson.com/wp-content/uploads/2013/05/brodinski_hero-500x375-bw.jpg')">
+            <header>
+              <h1>Oh yeah </h1>
+              <h2>all I have to do is use emmet with sublime text</h2>
+            </header>
+          </article>
+
+          <article class="  col-md-4  article-box third background-cover" style="background-image: url('http://www.abcdrduson.com/wp-content/uploads/2013/10/jonathan-mannion_hero-500x375-bw.jpg')">
+            <header>
+              <h1>Oh yeah </h1>
+              <h2>all I have to do is use emmet with sublime text</h2>
+            </header>
+          </article>
+
+          <article class="  col-md-4  article-box third background-cover" style="background-image: url('http://www.abcdrduson.com/wp-content/uploads/2014/10/cyanure_img2-500x375-bw.jpg')">
+            <header>
+              <h1>Oh yeah </h1>
+              <h2>all I have to do is use emmet with sublime text</h2>
+            </header>
+          </article>
+
+
+
+
+      </div>
+
+
+
+
+    </section>
+
 
 
 
