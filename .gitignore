@@ -4,9 +4,10 @@
 .DS_Store
 .coverage
 local_settings.py
-/static/
-!/static/css/*
-!/static/img/*
+!/static
+/static/*
+!/static/css/
+!/static/img/
 
 ### Sublime Text
 *.sublime*
