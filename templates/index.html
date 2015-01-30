@@ -17,7 +17,7 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="{% static "img/carousel.jpg" %}" class='main-slider' style="width:100%;height:565px">
+          <img src="{% static "img/carousel.jpg" %}" class='main-slider' >
           <div class="carousel-caption">
             <span class="carousel-caption-title">
               <h1>Keep it real</h1>
@@ -26,7 +26,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="{% static "img/carousel.jpg" %}" class='main-slider' style="width:100%;height:565px">
+          <img src="{% static "img/carousel.jpg" %}" class='main-slider' >
           <div class="carousel-caption">
             <span class="carousel-caption-title">
               <h1>Fuck with a nigga like me</h1>
@@ -103,33 +103,43 @@
     </section>
 
 
-    <section class='container'>
-      <div class='row'>
+    <section class='container-fluid featured'>
 
-      <section class='double-margin-top'>
-                <h2>DESTACADOS</h2>
-          <article class="col-md-4  article-box third">
+      <div class='container'>
+
+      <section class='row'>
+          <header class='section-header'>
+            <h2>DESTACADOS</h2>
+          </header>
+
+          <article class="col-md-4  featured-box third">
+            <a href="#">
               <img src="../static/img/tefa-500x375.jpg">
-            <header>
-              <h1>Oh yeah </h1>
-              <h2>all I have to do is use emmet with sublime text</h2>
-            </header>
+              <span class="featured-type">Interview</span>
+              <header>
+                <h1>Oh yeah </h1>
+              </header>
+            </a>
           </article>
 
-          <article class="col-md-4  article-box third">
+          <article class="col-md-4  featured-box third">
+          <a href="#">
               <img src="http://www.abcdrduson.com/wp-content/uploads/2013/10/jonathan-mannion_hero-500x375-bw.jpg">
+              <span class="featured-type">Interview</span>
             <header>
               <h1>Oh yeah </h1>
-              <h2>all I have to do is use emmet with sublime text</h2>
             </header>
+          </a>
           </article>
 
-          <article class="col-md-4  article-box third">
+          <article class="col-md-4  featured-box third">
+          <a href="#">
               <img src="http://www.abcdrduson.com/wp-content/uploads/2014/10/cyanure_img2-500x375-bw.jpg">
+              <span class="featured-type">Interview</span>
             <header>
               <h1>Oh yeah </h1>
-              <h2>all I have to do is use emmet with sublime text</h2>
             </header>
+            <a href="#">
           </article>
       </section>
 

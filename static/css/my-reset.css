@@ -52,7 +52,6 @@
 
 footer {
     background: black;
-    margin-top: 90px;
 }
 
 
@@ -70,6 +69,65 @@ img {
   padding-left: 0px;
   padding-right: 0px;
 }
+
+.featured{
+  margin-top: 30px;
+  padding: 30px 0px;
+  background: #eee;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 15px 0px;
+
+}
+
+.featured-box{
+  position: relative;
+  bottom: 10px;
+  word-break: break-word;
+  color: black;
+  padding-left: 5px;
+}
+
+.featured-type {
+position: absolute;
+color: white;
+background: rgba(0, 0, 0, 0.70);
+padding: 5px 10px;
+text-transform: uppercase;
+font-size: 14px;
+top: 0px;
+}
+
+.featured-box a:hover, a:visited {
+  color: black !important;
+  text-decoration: none;
+}
+
+.featured-box h1 {
+  padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
